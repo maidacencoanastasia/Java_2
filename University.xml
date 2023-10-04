@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university>
+    <!-- Факультеты -->
+    <faculty id="1">
+        <name>Факультет информационных технологий</name>
+        <courses>
+            <!-- Курсы на факультете информационных технологий -->
+            <course id="101">
+                <name>Введение в программирование</name>
+                <professor>Иванов И.И.</professor>
+            </course>
+            <course id="102">
+                <name>Базы данных</name>
+                <professor>Петров П.П.</professor>
+            </course>
+        </courses>
+    </faculty>
+
+    <faculty id="2">
+        <name>Факультет гуманитарных наук</name>
+        <courses>
+            <!-- Курсы на факультете гуманитарных наук -->
+            <course id="201">
+                <name>История</name>
+                <professor>Сидорова С.С.</professor>
+            </course>
+            <course id="202">
+                <name>Литература</name>
+                <professor>Кузнецова К.К.</professor>
+            </course>
+        </courses>
+    </faculty>
+
+    <!-- Студенты -->
+    <students>
+        <student id="1">
+            <name>Иван Иванов</name>
+            <faculty_id>1</faculty_id>
+            <courses>
+                <!-- Курсы, которые посещает студент -->
+                <course_id>101</course_id>
+                <course_id>102</course_id>
+            </courses>
+        </student>
+
+        <student id="2">
+            <name>Мария Петрова</name>
+            <faculty_id>2</faculty_id>
+            <courses>
+                <!-- Курсы, которые посещает студент -->
+                <course_id>201</course_id>
+            </courses>
+        </student>
+    </students>
+</university>
